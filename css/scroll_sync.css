@@ -1,0 +1,56 @@
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.sync-wrap {
+  margin-bottom: 3vw;
+}
+
+.sync-div {
+  float: left;
+  width: 50%;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.sync-div--left {
+  background-color: #efcf65;
+}
+.sync-div--left  .sync-div__start {
+  height: 1500px;
+}
+.sync-div--left  .sync-div__middle {
+  height: 1500px;
+}
+.sync-div--left  .sync-div__end {
+  height: 1500px;
+}
+
+.sync-div--right {
+  background-color: #2f5bf0;
+}
+.sync-div--right .sync-div__start {
+  height: 300px;
+}
+.sync-div--right .sync-div__middle {
+  height: 300px;
+}
+.sync-div--right .sync-div__end {
+  height: 300px;
+}
+
+.status {
+  width: 40%;
+  min-width: 200px;
+  margin: 0 auto;
+  padding: 1vw;
+  background-color: #dbdbdb;
+  text-align: center;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}

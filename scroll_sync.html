@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ScrollSync</title>
+    <link rel="stylesheet" type="text/css" href="css/scroll_sync.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>左右のdivのスクロールが連動しています。</h1>
+      <div class="sync-wrap clearfix">
+        <div id="leftDiv" class="sync-div sync-div--left">
+          <div class="sync-div__start">start</div>
+          <div class="sync-div__middle">middle</div>
+          <div class="sync-div__end">end</div>
+        </div>
+        <div id="rightDiv" class="sync-div sync-div--right">
+          <div class="sync-div__start">start</div>
+          <div class="sync-div__middle">middle</div>
+          <div class="sync-div__end">end</div>
+        </div>
+      </div>
+      <div class="status">
+        <span>スクロール率 : </span>
+        <span id="scrlPercent">0</span>
+        <span>%</span>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/scroll_sync.js"></script>
+  </body>
+</html>
