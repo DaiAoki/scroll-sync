@@ -1,15 +1,13 @@
-#+TITLE: ScrollSync
+# ScrollSync
 
-* What
+## What
 左のdivをスクロールしたら、右のdivも同期的にスクロールされる。
-
-Depending on input, the output is displayed as the result like the image below.
 
 ![result](https://github.com/DaiAoki/scroll-sync/blob/media/README-gif/scroll-sync.gif)
 
-* How
-スクロールしたいdivに id=leftDiv, rightDiv を付与する。
-#+BEGIN_SRC html
+## How
+スクロールしたいdivに `id="leftDiv"` , `id="rightDiv"` を付与する。
+```
 <div class="sync-wrap clearfix">
   <div id="leftDiv" class="sync-div sync-div--left">
     <div class="sync-div__start">start</div>
@@ -22,10 +20,10 @@ Depending on input, the output is displayed as the result like the image below.
     <div class="sync-div__end">end</div>
   </div>
 </div>
-#+END_SRC
+```
 
-* Other
-確認用に現在のスクロール量を出力するには、任意の要素に id=scrlPercent を付与する。
-#+BEGIN_SRC html
+## Other
+確認用に現在のスクロール量を出力するには、任意の要素に `id="scrlPercent"` を付与する。
+```
 <span id="scrlPercent">0</span>
-#+END_SRC
+```
