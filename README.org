@@ -2,6 +2,8 @@
 
 * What
 左のdivをスクロールしたら、右のdivも同期的にスクロールされる。
+
+Depending on input, the output is displayed as the result like the image below.
 ![result](https://github.com/DaiAoki/scroll-sync/blob/media/README-gif/scroll-sync.gif)
 
 * How
